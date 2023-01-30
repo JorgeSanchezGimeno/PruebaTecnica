@@ -18,7 +18,7 @@ public class Operaciones {
         String DNICi = datosCliente.get(2);
         Cliente cliente1 = new Cliente(nombre, apellidos, DNICi);
         
-       /*  System.out.println("Cuenta bancaria 1");
+        System.out.println("Cuenta bancaria 1");
         List<String> datos = pedirDatosCuenta();
         String DNI = datos.get(0);
         String saldo = datos.get(1);
@@ -48,7 +48,7 @@ public class Operaciones {
         System.out.println("   -> Nº de cuenta: " + datosCuenta2.get(1));
         System.out.println("   ->        Saldo: " + datosCuenta2.get(2));
 
-*/
+
         
     
     }
