@@ -84,6 +84,9 @@ public class Operaciones {
             String apellido = entradaEscaner.nextLine (); 
             System.out.print ("Introduzca el DNI del cliente: ");
             String DNI = entradaEscaner.nextLine (); 
+            datosCliente.add(nombre);
+            datosCliente.add(apellido);
+            datos.Cliente.add(DNI);
             return datosCliente;
             
         }
