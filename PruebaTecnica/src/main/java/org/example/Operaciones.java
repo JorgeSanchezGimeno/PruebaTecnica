@@ -17,7 +17,6 @@ public class Operaciones {
         String apellidos = datosCliente.get(1);
         String DNICi = datosCliente.get(2);
         Cliente cliente1 = new Cliente(nombre, apellidos, DNICi);
-        System.out.println("Fecha de alta del cliente 1: " + cliente1.getfechaAlta());
         
        /*  System.out.println("Cuenta bancaria 1");
         List<String> datos = pedirDatosCuenta();
